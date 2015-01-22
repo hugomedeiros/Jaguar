@@ -1,0 +1,26 @@
+.alert {
+	padding: 0.7em;
+	border: 1px solid #eee;
+	@include border-radius(3px);
+	margin: 0.5em 0 ;
+	color: $color1;
+}
+
+
+.alert-success {
+	background: $alert-bg-success;
+	color:$alert-color-success;
+	border-color: $alert-border-success;
+}
+
+.alert-warning {
+	background: $alert-bg-warning;
+	color:$alert-color-warning;
+	border-color: $alert-border-warning;
+}
+
+.alert-danger {
+	background: $alert-bg-danger;
+	color:$alert-color-danger;
+	border-color: $alert-border-danger;
+}

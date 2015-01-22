@@ -1,0 +1,67 @@
+// Color
+
+$dark: #37424d;
+$lightgray: #f5f5f5;
+$gray: #ccc;
+$hyperlink: #337ab7;
+
+
+
+// BUTTONS
+
+$btn-success: #5cb85c;
+$btn-success-dark: #4cae4c;
+
+$btn-warning: #f0ad4e;
+$btn-warning-dark: #eea236;
+
+$btn-danger: #d9534f;
+$btn-danger-dark:#d43f3a;
+
+$btn-info: #5bc0de;
+$btn-info-dark: #46b8da;
+
+$btn-primary: #337ab7;
+$btn-primary-dark: #2e6da4;
+
+//ALERTS
+
+$alert-bg-success: #dff0d8;
+$alert-border-success: #d6e9c6;
+$alert-color-success: #3c763d;
+
+$alert-bg-warning: #fcf8e3;
+$alert-border-warning: #faebcc;
+$alert-color-warning: #8a6d3b;
+
+$alert-bg-danger: #f2dede;
+$alert-border-danger: #ebccd1;
+$alert-color-danger: #a94442;
+
+$alert-dark: #3a3335;
+
+
+/* Coolors Exported Palette - coolors.co/3a3335-d81e5b-f0544f-fdf0d5-c6d8d3 */
+
+$color1: #3a3335;
+$color2: #d81e5b;
+$color3: #f0544f;
+$color4: #fdf0d5;
+$color5: #c6d8d3;
+
+
+
+// Font
+$proximanova: 'Proxima Nova', 'Raleway', sans-serif;
+
+
+// MIXINS
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+

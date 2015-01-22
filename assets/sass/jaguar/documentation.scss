@@ -1,0 +1,39 @@
+
+
+.doc-title { border-bottom: 1px solid $dark; padding-bottom: 0.5em; margin-bottom: 0.5em;}
+
+.hero{ h1{font-weight: 100;} }
+
+.color-scheme {
+	margin-bottom: 2em;
+	.col { height: 20px;}
+	.palette-1 { background: $color1;}
+	.palette-2 { background: $color2;}
+	.palette-3 { background: $color3;}
+	.palette-4 { background: $color4;}
+	.palette-5 { background: $color5;}
+
+}
+
+
+
+.syntaxhighlighter {
+	@include border-radius(6px);
+	border: 1px solid #ccc;
+
+	.toolbar { display: none;}
+}
+.syntaxhighlighter {
+	table {
+		td.gutter {
+			.line {
+				background: #eee !important;
+				&:first-child { padding-top: 1.5em !important;}
+				//&:last-child { padding-bottom: 0.7em !important;}
+			}
+		}
+	}
+}
+
+
+.example { margin-bottom: 5em;}

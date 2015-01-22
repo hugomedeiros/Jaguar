@@ -1,0 +1,15 @@
+.breadcrumbs {
+	li { 
+		display: inline-block;
+		padding: 0.3em 0.01em;
+		&:after{ content: "/"; margin: 0 0.3em;}
+		&:last-child { font-weight: bold; 
+			&:after{ content: "";}
+		}
+		color: $color1;
+	}
+	background: #f5f5f5;
+	padding: 0.5em 1em;
+	//@include border-radius(5px);
+	//box-shadow: 0px 1px 0px #ccc;
+}

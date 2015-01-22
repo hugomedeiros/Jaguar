@@ -1,0 +1,18 @@
+@import "variables";
+// SAMPLE MODE ONLY
+
+
+body.sample {
+
+	background: $color1;
+	.sidebar-left { background: $color1;}
+
+	.content {
+		background: #fff;
+		padding-top: 1em;
+	}
+
+	.sidebar-right { background: $color3;}
+
+	.sidebar-left, .content, .sidebar-right { height: 798px;}
+}

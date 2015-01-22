@@ -1,0 +1,58 @@
+.btn {
+	@include border-radius(5px);
+	padding: 10px;
+	border: 1px solid $gray;
+	color: $dark;
+	text-decoration: none;
+	display: inline-block;
+	background: #fff;
+	font-size: 16px;
+	&:hover {
+		background: #eee;
+	}
+}
+
+.btn-primary {
+	background: $btn-primary;
+	border-color: $btn-primary-dark;
+	color: #fff;
+	&:hover {
+		background: $btn-primary-dark;
+	}
+}
+
+.btn-success {
+	background: $btn-success;
+	border-color: $btn-success-dark;
+	color: #fff;
+	&:hover {
+		background: $btn-success-dark;
+	}
+}
+
+.btn-warning {
+	background: $btn-warning;
+	border-color: $btn-warning-dark;
+	color: #fff;
+	&:hover {
+		background: $btn-warning-dark;
+	}
+}
+
+.btn-danger {
+	background: $btn-danger;
+	border-color: $btn-danger-dark;
+	color: #fff;
+	&:hover {
+		background: $btn-danger-dark;
+	}
+}
+
+.btn-link {
+	background: none;
+	border-color: transparent;
+	color: $hyperlink;
+	&:hover {
+		background: none;
+	}
+}

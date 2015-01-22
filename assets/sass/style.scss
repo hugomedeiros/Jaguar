@@ -1,0 +1,52 @@
+@import "jaguar/reset";
+
+@import "jaguar/gridpak";
+
+@import "jaguar/variables";
+
+@import "jaguar/typography";
+
+@import "jaguar/breadcrumbs";
+
+@import "jaguar/btn";
+
+@import "jaguar/alerts";
+
+@import "jaguar/lists";
+
+@import "jaguar/loading";
+
+//documentation only
+@import "jaguar/documentation";
+
+
+
+body {
+	color: $color1;
+	font-family: $proximanova;
+}
+
+
+a {
+	color: $hyperlink;
+	text-decoration: none;
+	&:hover { text-decoration: underline;}
+}
+
+strong { font-weight: bold;}
+
+//.container-content { padding: 15px;}
+
+.hero {
+	
+	background: $lightgray;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	margin-bottom: 2em;
+	margin-left: 0;
+	overflow: hidden;
+	h1 { color: $color2; font-size: 50px;}
+	h2 { padding-top: 0;}
+}
+
+

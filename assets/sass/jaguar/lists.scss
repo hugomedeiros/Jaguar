@@ -1,0 +1,22 @@
+.list {
+	.list-item {
+		border: 1px solid #ccc;
+		margin-bottom: -1px;
+		padding: 0.7em 1em;
+		display: block;
+	}
+	li:first-child { @include border-radius(5px 5px 0 0);
+		.list-item { @include border-radius(5px 5px 0 0);
+		}
+	}
+
+	li:last-child { @include border-radius(0 0 5px 5px);
+		.list-item { @include border-radius(0 0 5px 5px);
+		}
+	}
+	li:hover {
+		background: $lightgray;
+		text-decoration: none;
+		a { text-decoration: none;}
+	}
+}
