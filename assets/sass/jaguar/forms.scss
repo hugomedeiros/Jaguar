@@ -10,7 +10,7 @@ form {
 			font-size: 0.9em;
 			margin: 0.3em 0;
 			display: block;
-			width: calc(100% - 1.4em);
+			width: calc(100% - 1.4em - 2px);
 			&:focus {
 				border-color: $forms-input-focus-border;
 				box-shadow: $forms-input-focus-bxshadow;
@@ -18,4 +18,13 @@ form {
 		}
 		button { font-size: 0.5em !important;}
 	}
+
+	.form-actions {
+		padding: 1em 1.5em;
+		background: #eee;
+		border-top: 1px solid #ccc;
+		margin-top: 1.5em;
+	}
 }
+
+

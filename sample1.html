@@ -13,29 +13,26 @@
 	<script type="text/javascript" src="assets/js/main.min.js"></script>
 	<script type="text/javascript">
 		SyntaxHighlighter.all();
-
-		(function() {
-			/* matchHeight example */
-			$(function() {
-				
-				// apply matchHeight to each item container's items
-				$('.row').each(function() {
-					$(this).children('.col').matchHeight(byRow);
-				});
-				// example of update callbacks (uncomment to test)
-				$.fn.matchHeight._beforeUpdate = function(event, groups) {
-				//var eventType = event ? event.type + ' event, ' : '';
-				//console.log("beforeUpdate, " + eventType + groups.length + " groups");
-			}
-			$.fn.matchHeight._afterUpdate = function(event, groups) {
-				//var eventType = event ? event.type + ' event, ' : '';
-				//console.log("afterUpdate, " + eventType + groups.length + " groups");
-			}
-		});
-})();
-</script>
-
-
+			(function() {
+				/* matchHeight example */
+				$(function() {
+					
+					// apply matchHeight to each item container's items
+					$('.row').each(function() {
+						$(this).children('.col').matchHeight(byRow);
+					});
+					// example of update callbacks (uncomment to test)
+					$.fn.matchHeight._beforeUpdate = function(event, groups) {
+					//var eventType = event ? event.type + ' event, ' : '';
+					//console.log("beforeUpdate, " + eventType + groups.length + " groups");
+				}
+				$.fn.matchHeight._afterUpdate = function(event, groups) {
+					//var eventType = event ? event.type + ' event, ' : '';
+					//console.log("afterUpdate, " + eventType + groups.length + " groups");
+				}
+			});
+		})();
+	</script>
 </head>
 <body class="sample">
 	<div class="row">
